@@ -3,3 +3,4 @@ lexik_paybox_ipn:
     defaults: { _controller: LexikPayboxBundle:Default:ipn }
     requirements:
         _method: GET|POST
+        _scheme: http
